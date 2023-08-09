@@ -1,6 +1,9 @@
  #!/usr/bin/python3
-  2 import sys
-  3 sys.stderr.write("and that piece of art is useful - Dora Korpar, 20
-    15-10-19\n")
-  4 sys.exit(1)
+import sys
 
+def write1():
+    sys.stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")
+    sys.exit(1)
+
+if __name__ == "__main__":
+    write1()
