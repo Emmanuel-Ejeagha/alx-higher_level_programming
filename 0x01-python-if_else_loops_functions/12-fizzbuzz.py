@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def fizzbuzz():
     """This numbers from 1 to 100 seperated by a space"""
     for number in range(1, 101):
