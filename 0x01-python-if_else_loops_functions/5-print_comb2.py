@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-for x in range(100):
-    print(f"{x:02d}", end=", ")
+for numbers in range(0, 100):
+    print("{:02d}".format(numbers), end=", ")
 print("\n")
