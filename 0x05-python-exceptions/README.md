@@ -58,7 +58,7 @@ Create a function `safe_function(fct, *args)` that executes a function safely an
 
 Write the Python function `magic_calculation(a, b)` that replicates a given Python bytecode. The function's implementation can be found in [Task 9](./102-magic_calculation.py).
 
-## Task 10: CPython PyFloatObject :snake: :large_blue_circle:
+## Task 10: CPython PyFloatObject :cpp: :snake:
 
 This task involves creating C functions to print information about Python lists, bytes, and float objects. For more details, see [Task 10](./103-python.c).
 
