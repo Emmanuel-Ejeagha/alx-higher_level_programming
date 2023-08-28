@@ -1,4 +1,4 @@
-# Python Exception Handling Exercises :snake: :large_blue_circle:
+# Python Exception Handling Exercises :snake: :rocket: :man_technologist:
 
 This repository contains a collection of Python exercises focused on exception handling. Each exercise is designed to help you practice handling various types of exceptions and errors in Python.
 
