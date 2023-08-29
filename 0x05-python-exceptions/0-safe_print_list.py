@@ -2,13 +2,14 @@
 
 def safe_print_list(my_list=[], x=0):
     """This function prints x elements of a list."""
-    try:
-        lists = 0
 
-        for item in my_list:
-            if lists < x:
-                print(num, end=" ")
-                lists += 1
+    n = 0
+    for m in range(x):
+        try:
+            print(my_list[m], end="")
+            n += 1
+        except IndexError:
+            break
+    print()
+    return n
 
-    except IndexError:
-        print("Invalid Index")
